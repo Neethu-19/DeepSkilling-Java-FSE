@@ -1,7 +1,5 @@
  # Exercise 7: Financial Forecasting
 
-## Scenario
-You are developing a financial forecasting tool that predicts future values based on past data.
 
 ## Steps
 1. **Understand Recursive Algorithms:**
