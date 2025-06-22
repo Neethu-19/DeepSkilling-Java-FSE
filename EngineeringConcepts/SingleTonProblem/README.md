@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Singleton Pattern Example in Java
 
 This project demonstrates the implementation of the Singleton design pattern. The goal is to ensure that a class has only one instance and to provide a global point of access to it.
@@ -94,5 +93,3 @@ Second log message
 Logger is a singleton. Both logger1 and logger2 point to the same instance.
 ``` 
 =======
-
->>>>>>> ed95358952e73beb11a9e0136630c8041415fd1a
