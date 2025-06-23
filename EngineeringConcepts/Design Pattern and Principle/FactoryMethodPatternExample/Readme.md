@@ -184,7 +184,7 @@ Adding formula to Excel: =SUM(A1:A10)
 
 === Factory Method Pattern Demo Complete ===
 
----
+```
 
 ## Summary
 The Factory Method Pattern lets you create different types of documents in a flexible, extensible way, without the client code needing to know the details of each document type. This makes your codebase easier to maintain and extend as new requirements arise. 
