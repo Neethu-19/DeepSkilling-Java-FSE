@@ -145,23 +145,44 @@ Creating Word document content...
 Document: Sample Report
 Type: WordDocument
 Content: This is a Word document with rich text formatting.
-...
+It supports bold, italic, underline, and other text styles.
+Document created: 2025-06-23T20:07:51.895480600
+---
+Saving Word document 'Sample Report' as .docx file
+Applying Word-specific formatting and compression...
+Opening Word document 'Sample Report' with Microsoft Word or compatible application
+Loading rich text formatting and styles...
 Applying Bold formatting to: Important text
 
 2. Creating and working with PDF Document:
 Creating PDF document content...
-...
+Document: User Manual
+Type: PdfDocument
+Content: This is a PDF document with fixed layout formatting.
+It maintains consistent formatting across different devices.
+Document created: 2025-06-23T20:07:51.912648700
+---
+Saving PDF document 'User Manual' as .pdf file
+Applying PDF-specific compression and security...
+Opening PDF document 'User Manual' with PDF reader application
+Loading fixed layout and rendering pages...
 Adding password protection to PDF: secret123
-Setting PDF page layout to: A4
 
 3. Creating and working with Excel Document:
-...
+Creating Excel document content...
+Document: Financial Data
+Type: ExcelDocument
+Content: This is an Excel document with spreadsheet data.
+It supports formulas, charts, and tables.
+Document created: 2025-06-23T20:07:51.919539500
+---
+Saving Excel document 'Financial Data' as .xlsx file
+Applying Excel-specific data validation and compression...
+Opening Excel document 'Financial Data' with Microsoft Excel or compatible application
+Loading spreadsheet data and formulas...
 Adding formula to Excel: =SUM(A1:A10)
 
 === Factory Method Pattern Demo Complete ===
-```
-
----
 
 ## Summary
 The Factory Method Pattern lets you create different types of documents in a flexible, extensible way, without the client code needing to know the details of each document type. This makes your codebase easier to maintain and extend as new requirements arise. 
