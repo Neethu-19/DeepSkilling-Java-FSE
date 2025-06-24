@@ -1,5 +1,7 @@
  # Exercise 7: Financial Forecasting
 
+## Scenario
+You are developing a financial forecasting tool that predicts future values based on past data.
 
 ## Steps
 1. **Understand Recursive Algorithms:**
@@ -23,3 +25,6 @@ When you compile and run the program, you should see output similar to:
 Future value after 10 periods: 1628.89
 ```
 
+Below is a screenshot of the output in the terminal:
+
+![Sample Output](output.png)
