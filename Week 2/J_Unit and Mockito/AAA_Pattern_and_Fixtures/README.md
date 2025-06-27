@@ -61,7 +61,6 @@ Below is the screenshot of the successful JUnit test run (green bar indicates al
 
 ![JUnit AAA Pattern Output](output.png)
 
-*Replace `output_screenshot.png` with your actual screenshot file.*
 
 ---
 
