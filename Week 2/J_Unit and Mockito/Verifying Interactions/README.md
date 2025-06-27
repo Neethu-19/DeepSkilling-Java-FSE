@@ -75,7 +75,7 @@ Below is the screenshot of the successful JUnit test run (green bar indicates th
 
 ![Mockito Verify Output](output.png)
 
-*Replace `output_screenshot.png` with your actual screenshot file.*
+
 
 ---
 
