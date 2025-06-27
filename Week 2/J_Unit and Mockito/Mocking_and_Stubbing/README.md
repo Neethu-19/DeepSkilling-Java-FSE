@@ -69,8 +69,6 @@ Below is the screenshot of the successful JUnit test run (green bar indicates th
 
 ![Mockito Test Output](output.png)
 
-*Replace `output_screenshot.png` with your actual screenshot file.*
-
 ---
 
 This setup confirms that Mockito can be used for mocking and stubbing in a plain Java project in Eclipse. 
