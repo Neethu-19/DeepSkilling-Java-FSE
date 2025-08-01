@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.App h1 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.App ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.App li {
+  background-color: #f5f5f5;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border-left: 4px solid #007bff;
+}
+
+.App span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.App hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 2px solid #ddd;
+}
+
+.App p {
+  color: #666;
+  font-style: italic;
+  margin-top: 20px;
+}

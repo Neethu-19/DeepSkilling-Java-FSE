@@ -1,0 +1,291 @@
+.user-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.header h1 {
+  color: #333;
+  margin: 0 0 10px 0;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.user-message {
+  color: #28a745;
+  font-size: 1.2em;
+  margin: 0;
+  font-weight: bold;
+}
+
+.flights-container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  margin-bottom: 30px;
+}
+
+.flights-container h2 {
+  color: #333;
+  margin: 0 0 30px 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.flights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.flight-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.flight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  border-color: #667eea;
+}
+
+.flight-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.flight-header h3 {
+  color: #333;
+  margin: 0;
+  font-size: 1.4em;
+}
+
+.price {
+  background: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.flight-details {
+  margin-bottom: 20px;
+}
+
+.route {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.departure, .arrival {
+  text-align: center;
+  flex: 1;
+}
+
+.departure strong, .arrival strong {
+  display: block;
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.departure span, .arrival span {
+  color: #666;
+  font-size: 0.9em;
+}
+
+.arrow {
+  color: #667eea;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.seats {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.seats-available {
+  background: #28a745;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.book-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.book-button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.booking-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.booking-form {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  width: 90%;
+}
+
+.booking-form h3 {
+  color: #333;
+  margin: 0 0 20px 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.form-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.confirm-button, .cancel-button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.confirm-button {
+  background: #28a745;
+  color: white;
+}
+
+.confirm-button:hover {
+  background: #218838;
+}
+
+.cancel-button {
+  background: #dc3545;
+  color: white;
+}
+
+.cancel-button:hover {
+  background: #c82333;
+}
+
+.bookings-section {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.bookings-section h2 {
+  color: #333;
+  margin: 0 0 30px 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+.bookings-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.booking-card {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #2196f3;
+}
+
+.booking-card h4 {
+  color: #1976d2;
+  margin: 0 0 15px 0;
+  font-size: 1.3em;
+}
+
+.booking-card p {
+  margin: 8px 0;
+  color: #333;
+}
+
+.booking-card strong {
+  color: #1976d2;
+} 

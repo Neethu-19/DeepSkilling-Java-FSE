@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.office-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.office-item {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.office-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.office-item h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.office-item h3 {
+  margin: 8px 0;
+  font-size: 1.2rem;
+}
+
+/* CSS for conditional rent color styling */
+.textRed {
+  color: #e74c3c !important;
+  font-weight: bold;
+}
+
+.textGreen {
+  color: #27ae60 !important;
+  font-weight: bold;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 15px 0;
+}
+
+img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
